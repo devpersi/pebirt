@@ -19,4 +19,4 @@ def resize(img, width=800, height=800):
 for file in Path('').glob('*.png'):
     with Image.open(file) as img:
         processed_img = resize(crop(img))
-        processed_img.save(file.with_suffix(".out.png"), format="PNG")
+        processed_img.save(file.with_suffix('.out.png'), format='PNG')
