@@ -17,9 +17,6 @@ def resize(img, width=800, height=800):
     return img.resize((width, height), Image.LANCZOS)
 
 for file in Path('').glob('*.png'):
-    input_path = str(file)
-    output_path = str(file.parent / (file.stem + ".out.png"))
-
-    with Image.open(input_path) as img:
+    with Image.open(file) as img:
         processed_img = resize(crop(img))
-        processed_img.save(output_path, format="PNG")
+        processed_img.save(file.with_suffix(".out.png"), format="PNG")
