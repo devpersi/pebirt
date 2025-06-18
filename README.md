@@ -29,7 +29,7 @@ In the spirit of automating the boring things with python, this tool automates c
     ``` 
 6. Run
     ```bash
-        python bulk_crop_resize.py
+        python resize.py
     ```
 >Default behaviour only works with .png files. You can choose the filetype by adjusting path.glob pattern in resize.py
 
