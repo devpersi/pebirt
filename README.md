@@ -1,5 +1,5 @@
 # Persi's Easy Bulk Image Resize Tool
-PEBIRT is a free and open source lightweight python console app designed to simplify bulk image cropping and resizing. It is a ridiculously tiny script thanks to using [Pillow](https://github.com/python-pillow/Pillow/)'s image processing, inspired by [rembg](https://github.com/danielgatis/rembg/tree/main?tab=readme-ov-file#usage-as-a-library)'s bulk background removal ease of use. Combine them to speed up uniform image uploads.
+PEBIRT is a free and open source lightweight python console app designed to simplify bulk image cropping and resizing. It is a ridiculously tiny script thanks to using [Pillow](https://github.com/python-pillow/Pillow/)'s image processing, inspired by [rembg](https://github.com/danielgatis/rembg/tree/main?tab=readme-ov-file#usage-as-a-library)'s bulk background removal. Combine them to speed up uniform image uploads.
 
 ## Overview
 In the spirit of automating the boring things with python, this tool automates cropping images to a square 1:1 ratio and resizing them by default to 800x800, my preferred image size for e-shop product images. It is ideal for e-commerce data entry *enthusiasts* with beginner python experience.
